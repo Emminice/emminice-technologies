@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Work — Emminice Technologies</title>
+<meta name="description" content="Every project Emminice Technologies has built — hotel booking engines, e-commerce stores, marketplaces, real estate platforms and more.">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">
+      <img src="assets/logo-icon.png" alt="Emminice Technologies" class="nav-logo">
+      <span class="nav-brand-text">Emminice<em>Technologies</em></span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="work.html" data-nav class="is-active">Work</a>
+      <a href="index.html#services" data-nav>Services</a>
+      <a href="index.html#process" data-nav>Process</a>
+      <a href="index.html#about" data-nav>About</a>
+      <a href="index.html#contact" data-nav class="nav-cta">Start a project</a>
+    </nav>
+
+    <div class="nav-controls">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ WORK HERO ============ -->
+<section class="work-hero" id="top">
+  <div class="hero-grid" aria-hidden="true"></div>
+  <div class="section-inner">
+    <p class="eyebrow" data-reveal>WORK WE'VE DONE</p>
+    <h1 class="work-hero-title" data-reveal>Every project, in full.</h1>
+    <p class="body-lg" data-reveal>
+      From hotel booking engines to marketplaces — here's the complete list of platforms
+      we've designed, built and shipped for our clients.
+    </p>
+  </div>
+</section>
+
+<!-- ============ ALL WORK ============ -->
+<section class="work work-full">
+  <div class="section-inner">
+    <div class="work-grid">
+
+      <article class="work-card work-card--wide" data-reveal>
+        <div class="work-card-body">
+          <span class="work-tag">Hospitality · Booking Engine</span>
+          <h3>GrandLux Hotel</h3>
+          <p>A full hotel management platform built for a luxury client under a tight deadline.
+            It handles the entire guest journey — a room booking engine, payment processing
+            through Stripe and Paystack, and an admin dashboard staff use to manage
+            reservations day to day. The project went through two builds: an initial version
+            on Laravel 11 with Inertia.js, React and Three.js, then a full rebuild on Laravel 12
+            with pure Blade, Alpine.js and GSAP for a lighter, faster front end — backed by an
+            extensive database schema to support the booking logic.</p>
+          <div class="work-meta">
+            <span>Laravel</span><span>Blade</span><span>Alpine.js</span><span>GSAP</span><span>Stripe / Paystack</span>
+          </div>
+        </div>
+        <div class="work-card-visual" data-visual="grandlux"></div>
+      </article>
+
+      <article class="work-card" data-reveal>
+        <div class="work-card-visual" data-visual="lolabeaute"></div>
+        <div class="work-card-body">
+          <span class="work-tag">Beauty · E-Commerce</span>
+          <h3>Lola Beauté</h3>
+          <p>A luxury cosmetics store that started life as a single static HTML page and was
+            rebuilt into a full Laravel and MySQL application with real product management.
+            The build spanned full scaffolding, deployment to Namecheap shared hosting,
+            resolving Vite manifest errors that come with that environment, mobile navbar
+            fixes, and a full retheme to the brand's pink-and-black identity.</p>
+          <div class="work-meta"><span>Laravel</span><span>MySQL</span></div>
+        </div>
+      </article>
+
+      <article class="work-card" data-reveal>
+        <div class="work-card-visual" data-visual="threadhouse"></div>
+        <div class="work-card-body">
+          <span class="work-tag">Fashion · E-Commerce</span>
+          <h3>ThreadHouse</h3>
+          <p>A full e-commerce clothing store for Elegheson Fashion, built on Laravel 11 with
+            Livewire so product browsing, cart and checkout all update live without a page
+            reload. Deployed on Namecheap cPanel shared hosting, with real-world work on
+            authentication and session handling, the Livewire checkout flow, and Apache
+            server configuration to get it running smoothly.</p>
+          <div class="work-meta"><span>Laravel</span><span>Livewire</span><span>cPanel Hosting</span></div>
+        </div>
+      </article>
+
+      <article class="work-card" data-reveal>
+        <div class="work-card-visual" data-visual="akara"></div>
+        <div class="work-card-body">
+          <span class="work-tag">Food &amp; Restaurants</span>
+          <h3>My Akara Spot</h3>
+          <p>A restaurant website built for a local Abuja food business — a public-facing menu
+            and ordering flow paired with a full admin panel so the owner can manage it
+            without touching code. The project also included a business proposal, drafted to
+            pitch the finished site back to the client as a real business tool.</p>
+          <div class="work-meta"><span>Admin Panel</span><span>Responsive</span></div>
+        </div>
+      </article>
+
+      <article class="work-card" data-reveal>
+        <div class="work-card-visual" data-visual="skillbridge"></div>
+        <div class="work-card-body">
+          <span class="work-tag">Marketplace</span>
+          <h3>SkillBridge</h3>
+          <p>A freelance marketplace built to connect clients with skilled freelancers, with
+            separate flows for browsing talent, posting work and managing engagements. Built
+            on Laravel with an Inertia.js and React front end for a fast, app-like feel across
+            the marketplace.</p>
+          <div class="work-meta"><span>Laravel</span><span>Inertia.js</span><span>React</span></div>
+        </div>
+      </article>
+
+      <article class="work-card" data-reveal>
+        <div class="work-card-visual" data-visual="safespace"></div>
+        <div class="work-card-body">
+          <span class="work-tag">Real Estate</span>
+          <h3>Safe Space</h3>
+          <p>A real estate listings platform built to make a large property catalogue easy to
+            browse — filtering, search and enquiry flows designed so a visitor can go from
+            browsing to reaching out without friction, backed by Laravel and MySQL.</p>
+          <div class="work-meta"><span>Laravel</span><span>MySQL</span></div>
+        </div>
+      </article>
+
+      <article class="work-card" data-reveal>
+        <div class="work-card-visual" data-visual="hundeyin"></div>
+        <div class="work-card-body">
+          <span class="work-tag">Education</span>
+          <h3>Hundeyin Institute</h3>
+          <p>A student learning portal built as a platform for coursework and study — giving
+            students one place to access learning content and track their progress through
+            it, built with the same Laravel-based stack behind our other platforms.</p>
+          <div class="work-meta"><span>Laravel</span><span>MySQL</span></div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="work-cta">
+  <div class="section-inner work-cta-inner" data-reveal>
+    <h2 class="section-title">Have a project like this in mind?</h2>
+    <p class="body-lg">Tell us what you're building — we'll reply on WhatsApp.</p>
+    <a href="index.html#contact" class="btn btn-primary">Start a project</a>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="section-inner footer-grid">
+    <div class="footer-brand">
+      <img src="assets/logo-icon.png" alt="Emminice Technologies" class="footer-logo">
+      <p>Emminice Technologies</p>
+      <p class="footer-tag">Building solutions. Powering growth.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Studio</h4>
+      <a href="work.html">Work</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#process">Process</a>
+      <a href="index.html#about">About</a>
+    </div>
+    <div class="footer-col">
+      <h4>Connect</h4>
+      <a href="https://wa.me/12242857868" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="mailto:hello@emminice.tech">Email</a>
+      <a href="https://www.linkedin.com/in/emmanuel-hundeyin" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://x.com/_hackerdave" target="_blank" rel="noopener">Twitter / X</a>
+    </div>
+    <div class="footer-col">
+      <h4>Based in</h4>
+      <p class="footer-location">Kubwa, Abuja, Nigeria — working with clients everywhere.</p>
+    </div>
+  </div>
+  <div class="footer-bottom section-inner">
+    <p>© <span id="year"></span> Emminice Technologies. All rights reserved.</p>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>
